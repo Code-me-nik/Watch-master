@@ -1,0 +1,97 @@
+:root{
+    --colorone :#131629 ;
+    --colortwo : rgb(255, 255, 255);
+    --colorthree : rgb(241, 102, 51);
+    --background: #1F2241 ;
+}
+
+body{ 
+  margin:0;
+  padding : 0 ;
+  display: flex ;
+  justify-content: center ;
+  font-family: 'Roboto', sans-serif;
+}
+
+section{
+  background-color:var(--background);
+  width:350px;
+  height:450px;
+  border-radius:20px;
+  display: grid ;
+  justify-content: center ;
+  align-content: space-evenly ;
+  grid-template-columns: 100% ;
+  grid-template-rows: 300px 50px;
+  margin:50px auto;
+  -webkit-box-shadow: 15px 15px 32px -3px rgba(138,138,138,1);
+  -moz-box-shadow: 15px 15px 32px -3px rgba(138,138,138,1);
+  box-shadow: 15px 15px 32px -3px rgba(138,138,138,1);
+}
+
+.stopwatch-container{
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+}
+
+.stopwatch-background{
+  border-radius:50%;
+  width:270px;
+  height:270px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  background:linear-gradient(var(--colorone),var(--background));
+  box-shadow:10px 10px 25px 5px rgba(0, 0, 0, 0.347) ;
+}
+
+.stopwatch-body{
+ height:220px;
+ width:220px;
+ border-radius: 50% ;
+ display: flex ;
+ justify-content: center ;
+ align-items: center ;
+ background-color: var(--colorone);
+ border:4px solid tomato;
+ 
+}
+
+#stopwatch-display{
+  width:100%;
+  height:50px;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+
+}
+
+#stopwatch-display p{
+  width:15px;
+  height:20px;
+  padding:2px;
+  font-size:20px;
+  color:var(--colorthree);
+  text-align: center;
+}
+
+footer {
+  display: flex ;
+  justify-content: space-around ;
+  align-items: center ;
+}
+
+footer button{
+  border:0;
+  font-size:18px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color:white;
+  background-color: var(--background);
+  cursor: pointer;
+}
+
+.clicked{
+  color: var(--colorthree);
+}

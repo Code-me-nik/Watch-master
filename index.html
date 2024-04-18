@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Watch Master </title>
+
+  <!-- css file linking -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- fontawesome icons link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <section>
+
+    <div class="stopwatch-container">
+      <div class="stopwatch-background">
+        <div class="stopwatch-body">
+          <span id="stopwatch-display">
+            <p id="hour">0</p>
+            <p class="colon">:</p>
+            <p id="minute">0</p>
+            <p class="colon">:</p>
+            <p id="second">0</p>
+            <p class="colon last">:</p>
+            <p id="millisecond">0</p>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <button id="start-btn">
+        <i class="fa-solid fa-play"></i>
+      </button>
+      <button id="stop-btn">
+        <i class="fa-solid fa-pause"></i>
+      </button>
+      <button id="reset-btn">
+        <i class="fa-solid fa-rotate-left"></i>
+      </button>
+    </footer>
+    
+  </section>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
