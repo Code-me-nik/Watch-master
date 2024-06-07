@@ -11,7 +11,7 @@ Watch Master is a stylish and feature-rich stopwatch application built with HTML
 
 ## Project Preview
 
-![Watch Master Preview](project preview/desktop version.png)
+![Watch Master](<project preview/desktop version.png>)
 
 ## Live Preview
 
